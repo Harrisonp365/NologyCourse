@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Challenge 2</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/xzbyywwz" method="POST">
+        <label for="name">Full name: </label>
+        <input type="text" id="name" name="full-name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="0" name="age" required>
+
+        <label for="state">State:</label>
+        <select id="state" name="state">
+            <option value="nsw">NSW</option>
+            <option value="vic">VIC</option>
+            <option value="act">ACT</option>
+            <option value="sa">SA</option>
+            <option value="QLD">QLD</option>
+            <option value="WA">WA</option>
+            <option value="NT">NT</option>
+        </select>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phoneNumber">Phone number:</label>
+        <input type="number" id="phoneNumber" name="phone-number" min="0" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="message box" name="message" required></textarea>
+        <br>
+        <input type="submit" id="sumbit">
+    </form>
+</body>
+</html>

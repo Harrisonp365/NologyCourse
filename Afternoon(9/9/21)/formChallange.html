@@ -15,24 +15,29 @@
         }
     </style>
 </head>
+<!-- also using basic validation after first challenge -->
 <body>
-    <form>
+    <form action="send to db or url" method="POST">
         <label for="name">Name: </label>
-        <input type="text" id="name">
+        <input type="text" id="name" required>
         
         <label for="lastName">Last name:</label>
-        <input type="text" id="lastName">
-        <label for="Gen">Gender</label>
-        <select id="Gen">
+        <input type="text" id="lastName" required>
+
+        <label for="gen">Gender</label>
+        <select id="gen">
             <option value="f">female</option>
             <option value="m">male</option>
             <option value="o">other</option>
             <option value="na">n/a</option>
         </select>
+
         <label for="age">Age:</label>
-        <input type="date" id="Age">
+        <input type="number" id="age" min="0" required>
+        
         <label for="message">Message:</label>
         <textarea id="message" placeholder="message box"></textarea>
+        <input type="submit" id="sumbit">
     </form>
     
 </body>
