@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Challenge</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        
+        <label for="lastName">Last name:</label>
+        <input type="text" id="lastName">
+        <label for="Gen">Gender</label>
+        <select id="Gen">
+            <option value="f">female</option>
+            <option value="m">male</option>
+            <option value="o">other</option>
+            <option value="na">n/a</option>
+        </select>
+        <label for="age">Age:</label>
+        <input type="date" id="Age">
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="message box"></textarea>
+    </form>
+    
+</body>
+</html>
