@@ -1,0 +1,65 @@
+/* p {
+    color: purple;
+}
+
+p:hover {
+    color: blue;
+} */
+
+/* .container >h1:only-of-type {
+    color: purple;
+}
+
+.container > p:first-of-type {
+    color: red;
+}
+
+.container > p:nth-of-type(2) {
+    color: blue;
+}
+
+.container > p:nth-last-of-type(2) {
+    font-weight: bold;
+}
+
+.container > p:last-of-type {
+    text-decoration: underline;
+} */
+
+/* for unvisited link */
+ a:link {
+    color: purple;
+    font-weight: bold;
+ }
+
+ /* visited link */
+ a:visited {
+     color: hotpink;
+     font-weight: bold;
+ }
+
+ a:hover {
+     background-color: bisque;
+ }
+
+ a:active {
+     background-color: cadetblue;
+ }
+
+ form > input:required {
+     border: 2px solid red;
+ }
+
+ form > input:optional {
+     border: 2px solid hotpink;
+ }
+
+ form > input:disabled {
+     border: 4px solid white;
+     background-color: white;
+     color: white;
+ }
+
+ form > input:enabled {
+     background-color: burlywood;
+ }
