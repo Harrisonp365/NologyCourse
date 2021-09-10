@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lessonCss.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Descendant combinator -->
+    <!-- <div class="container">
+        <p>This is some text, P tag. Only select this para</p>
+    </div>
+
+    <span class="container">
+        <p>This is a para in a span.</p>
+    </span> -->
+    <!-- Remove the div from the css block called (div.container p), this block will now style all classes named container -->
+    <!-- <p>More text here, P tag. Don't select this para</p> -->
+
+    <!-- children combinators -->
+
+    <!-- <div class="grand-parent">
+        <div class="parent">
+            <p>I am a grandchild and I am bold!</p>
+        </div>
+        <p>I am a child of grandparent and I am red.</p>
+    </div>
+
+    <p>I am sibling of grand-parent. On the same level as Grandparent</p> -->
+
+    <!-- adjacent siblings -->
+
+    <!-- <div class="container">
+        <p>I am a child of the div and a para.</p>
+    </div>
+
+    <p>I am a sibling of the div we are on the same level. I am red.</p>
+    <p>I am the 2nd sibling of the div.</p> -->
+
+    <!-- mixing ids and classes -->
+    <p class="red-para">para</p>
+    <div id="mainHeader">
+        <p>first para</p>
+        <p class="red-para">second para</p>
+        <p id="bluePara" class="third-para">third para</p>
+    </div>
+
+
+</body>
+
+</html>
