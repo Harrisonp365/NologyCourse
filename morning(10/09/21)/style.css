@@ -1,4 +1,4 @@
-h1 {
+header > h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +7,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
+header > h3 {
     display: flex;
     flex-direction: column;
     justify-content:end;
@@ -23,18 +23,20 @@ h2 {
 }
 
 div {
-    border: 2px solid black;
-    
+    border: 2px solid black;     
 }
 
 div > p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#no1 {
+#lineOne {
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: underline;
-    line-height: 0;
+    line-height: 0;   
 }
+
+/* This initial way is quiet a crude way of just getting it to look the same but a better way would 
+be to have the two top h1 & h3 in a header then go thorugh the header and style both from there. can go to the previous commit to see the original way*/
