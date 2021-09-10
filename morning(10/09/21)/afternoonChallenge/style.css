@@ -1,0 +1,45 @@
+/* a:hover {
+    color: mediumseagreen;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    background-color: lightsalmon;
+    color: blue;
+    cursor: pointer;
+}
+
+a:link {
+    color:midnightblue;
+} */
+
+/* challenge 2 */
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+input {
+    border-radius: 4px;
+    width: 200px;
+}
+
+form > input:first-of-type {
+    background-color: lightseagreen;
+}
+
+form > input:nth-of-type(3) {
+    background-color: lightseagreen;
+    outline: red;
+    border: 3px solid red;
+}
+
+form > input:last-of-type {
+    background-color: lightseagreen;
+}
+
+
