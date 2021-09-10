@@ -1,0 +1,41 @@
+/* Descendant combinator
+div.container p {
+    color: purple;
+} */
+
+/* children combinators */
+/* 
+div.grand-parent p {
+    font-weight: bold;
+} */
+/* this selects every decendant of the grandparent */
+
+/* div.grand-parent > p {
+    color: red;
+} */
+/* This only selects the direct children of the grandparent class */
+
+/* Adjacent siblings */
+/* div.container + p {
+    color: red;
+}
+
+/* general siblings */
+/*
+div.container ~ p {
+    font-style: italic;
+} */
+
+/* mixing ids and classes */
+.red-para {
+    color: red;
+}
+
+#mainHeader .red-para {
+    font-size: larger;
+    text-decoration: underline;
+}
+
+#bluePara.third-para {
+    border: 2px solid blue;
+}
