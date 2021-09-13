@@ -1,4 +1,4 @@
-body {
+/* body {
     display: flex;
     justify-content: center;
 }
@@ -7,15 +7,15 @@ body {
     height: 300px;
     border: 2px solid black;
     display: flex;
-    /* justify-content:center; */
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 280px;
+    height: 80%;
     width: 300px;
 }
 
@@ -35,5 +35,20 @@ body {
     background-color:red;
 }
 
-/* flex wrap */
+#smallBox5 {
+    background-color: royalblue;
+} */
+
+/* flex Direction */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
 
