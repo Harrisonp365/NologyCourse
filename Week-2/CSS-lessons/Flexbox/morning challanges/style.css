@@ -1,0 +1,54 @@
+/* body {
+    display: flex;
+    justify-content: center;
+}
+.flex-container {
+    width: 900px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 300px;
+}
+
+#smallBox1 {
+    background-color: cadetblue; 
+}
+
+#smallBox2 {
+    background-color:darkturquoise;
+}
+
+#smallBox3 {
+    background-color:darkviolet;
+}
+
+#smallBox4 {
+    background-color:red;
+}
+
+#smallBox5 {
+    background-color: royalblue;
+} */
+
+/* flex Direction */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
