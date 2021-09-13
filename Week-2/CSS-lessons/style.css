@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.flex-container {
+    width: 900px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    /* justify-content:center; */
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    width: 300px;
+}
+
+#smallBox1 {
+    background-color: cadetblue; 
+}
+
+#smallBox2 {
+    background-color:darkturquoise;
+}
+
+#smallBox3 {
+    background-color:darkviolet;
+}
+
+#smallBox4 {
+    background-color:red;
+}
+
+/* flex wrap */
+
