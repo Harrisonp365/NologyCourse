@@ -1,0 +1,108 @@
+.page-layout{
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+    "h1 h1 h1 h1 h1 h1 h1 h2"
+    "a1 a1 a3 a3 a3 a3 a3 b1"
+    "a1 a1 a3 a3 a3 a3 a3 b1"
+    "a2 a2 a3 a3 a3 a3 a3 b1"
+    "a2 a2 a4 a4 a5 a5 a5 b1"
+    "a2 a2 a4 a4 a5 a5 a5 b1"
+    ;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+#artistH1 {
+    border: 1px solid black;
+    grid-area: h1;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+#bookH1 {
+    border: 1px solid black;
+    grid-area: h2;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.flex-cards {
+    display: flex;
+    border: 1px solid black;
+}
+
+#artist1 {   
+    grid-area: a1;
+}
+#artist1Flex > h3 {
+    margin: 20px;
+}
+
+#artist1Flex > dd {
+    text-align:justify;
+}
+
+#artist2 { 
+    grid-area: a2; 
+}
+
+#artist2Flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#artist3 { 
+    grid-area: a3;
+}
+
+#artist3Flex{
+    justify-items: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#artist4 { 
+    grid-area: a4;
+}
+
+#artist4Flex > h3 {
+    margin: 20px;
+}
+
+#artist4Flex > dl {
+    flex-direction: column;
+    text-align: left;
+}
+
+#artist5 {
+    grid-area: a5;
+}
+
+#book1 {
+    grid-area: b1;
+}
+
+#book1Flex {
+    grid-area: b1;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.book-img {
+    height: 300px;
+}

@@ -1,0 +1,11 @@
+.page__text {
+    color: coral;
+}
+
+.page__text--brown {
+    color: brown;
+}
+
+.page__text--bold {
+    font-weight: bold;
+}

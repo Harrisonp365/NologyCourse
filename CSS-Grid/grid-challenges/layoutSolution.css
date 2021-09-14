@@ -1,0 +1,20 @@
+.cell {
+    border: 2px solid black;
+    padding: 10px; 
+}
+
+.pouya {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pouya-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pouya img {
+    height: 300px;
+    width: 300px;
+}
