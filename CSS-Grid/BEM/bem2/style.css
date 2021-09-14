@@ -1,0 +1,22 @@
+.container__text {
+    text-decoration: underline;
+}
+
+.container__text--italic {
+    font-style: italic;
+    text-decoration: none;
+}
+
+.container__text--lg {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.container__text--std {
+    text-decoration: none;
+}
+
+.container__text--bl {
+    text-decoration: none;
+    color: blue;
+}
