@@ -1,0 +1,47 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.hobbies {
+    background-color: turquoise;
+    height: 100px;
+}
+
+p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#heading {
+    grid-column: 1 / 4;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#hobbie1 {
+    background-color: turquoise;
+}
+
+#hobbie2 {
+    background-color: tomato;
+}
+
+#hobbie3 {
+    background-color: burlywood;
+}
+
+#hobbie4 {
+    background-color: lightcoral;
+}
+
+#hobbie5 {
+    background-color: lightgreen;
+}
+
+#hobbie6 {
+    background-color: lightslategrey;
+}
