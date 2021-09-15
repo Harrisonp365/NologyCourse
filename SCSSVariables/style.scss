@@ -1,10 +1,9 @@
 //  Global scope when listed above all
- $primary-background: #a85418;
- $primary-text-color: pink;
- $bold-weight: 900;
+@use "palette";
 
+$bold-weight: 900;
 .btn {
-    background-color: $primary-background;
+    background-color: palette.$primary-background;
 
     &--alert {
         border: 2px solid red;
@@ -12,7 +11,7 @@
 
     &__text {
         font-weight: $bold-weight;
-        color: $primary-text-color;
+        color: palette.$primary-text-color;
 
         &--primary {
             font-style: italic;
@@ -29,9 +28,9 @@
 }
 
 h1 {
-    color: $secondary-header-color;
+    color: palette.$secondary-header-color;
 }
 
 h2 {
-    $secondary-header-color: green;
+    color: palette.$secondary-header-color;
 }

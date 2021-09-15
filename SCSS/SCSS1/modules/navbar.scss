@@ -1,0 +1,48 @@
+@use "./../partials/palette";
+
+.nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 60px;
+
+    .home__color {
+
+        color: palette.$home-font-color;
+    
+        &:hover {
+            color: palette.$hover-text-color;
+            border: 1px solid palette.$home-font-color;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+    &__group {
+        display: flex;
+        color: palette.$nav__item-color;
+    }
+
+    &__item {
+        margin: 0px 20px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &--stretched {
+        justify-content: space-between;
+        background-color: palette.$nav__dutch-white;
+    }
+
+    &--spaced {
+        justify-content: space-around;
+        background-color: palette.$nav__pale-spring;
+        color: palette.$nav__item-color;
+    }
+
+    &--reversed {
+        flex-direction: row-reverse;
+    }
+}

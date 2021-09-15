@@ -1,0 +1,27 @@
+.btn {
+  background-color: #a85418;
+}
+.btn--alert {
+  border: 2px solid red;
+}
+.btn__text {
+  font-weight: 900;
+  color: pink;
+}
+.btn__text--primary {
+  font-style: italic;
+}
+.btn__text--primary:hover {
+  background-color: lightblue;
+}
+.btn__text--secondary {
+  color: green;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: green;
+}
