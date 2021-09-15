@@ -1,0 +1,37 @@
+//  Global scope when listed above all
+ $primary-background: #a85418;
+ $primary-text-color: pink;
+ $bold-weight: 900;
+
+.btn {
+    background-color: $primary-background;
+
+    &--alert {
+        border: 2px solid red;
+    }
+
+    &__text {
+        font-weight: $bold-weight;
+        color: $primary-text-color;
+
+        &--primary {
+            font-style: italic;
+
+            &:hover {
+                background-color: lightblue;
+            }
+        }
+
+        &--secondary {
+            color: green;
+        }
+    }
+}
+
+h1 {
+    color: $secondary-header-color;
+}
+
+h2 {
+    $secondary-header-color: green;
+}

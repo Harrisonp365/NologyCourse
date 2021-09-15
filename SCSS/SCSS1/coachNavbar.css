@@ -1,3 +1,7 @@
+body {
+  color: blue;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -6,16 +10,33 @@
 }
 .nav__group {
   display: flex;
+  color: #33ca7f;
 }
 .nav__item {
   margin: 0px 20px;
 }
+.nav__item:hover {
+  cursor: pointer;
+}
 .nav--stretched {
   justify-content: space-between;
+  background-color: #0d0628;
 }
 .nav--spaced {
   justify-content: space-around;
+  background-color: #9a348e;
+  color: #33ca7f;
 }
 .nav--reversed {
   flex-direction: row-reverse;
+}
+
+.home__color {
+  color: #fca17d;
+}
+.home__color:hover {
+  color: #33ca7f;
+  border: 1px solid #fca17d;
+  border-radius: 5px;
+  cursor: pointer;
 }

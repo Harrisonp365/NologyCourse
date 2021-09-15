@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28,8 +28,9 @@
     </nav>
 
     <nav class="navbar">
-        <ul class="navbar__nav">
-            <li class="nav__item">
+        <ul class="navbar__nav"> -->
+<!-- break out the first list item -->
+<!-- <li class="nav__item">
                 <a class="nav__link" href="#">Home</a>
             </li>
             <li class="nav__item">
@@ -62,7 +63,131 @@
     </nav>
 
 </body>
+
+</html> -->
+
+<!-- Breaking up the first nav link into a seperate div and the last 3 link into another works but unsure if its the correct way to do it -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>SCSS-BEM navbar</title>
+</head>
+
+<body>
+    <nav class="navbar navbar--space-between">
+        <div class="navbar__home">
+            <ul class="navbar__nav navbar__nav--seperate">
+                <li class="nav__item nav__item--seperate">
+                    <a class="nav__link" href="#">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar__links">
+            <ul class="navbar__nav navbar__nav--seperate">
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Contact</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">About Us</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar--space-evenly">
+        <ul class="navbar__nav navbar__nav--space-evenly">
+            <li class="nav__item">
+                <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">Contact</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">About Us</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">FAQ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navbar navbar--reverse">
+        <div class="navbar__home">
+            <ul class="navbar__nav navbar__nav--seperate">
+                <li class="nav__item nav__item--seperate">
+                    <a class="nav__link" href="#">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar__links">
+            <ul class="navbar__nav navbar__nav--seperate">
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Contact</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">About Us</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+</html> -->
+
 <!-- left the challenge here as I know i can get the correct spacing seperating out the li items 
 but I want to see how the coaches do it and if they do it the same way coach code will be below -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Coach code</title>
+</head>
+
+<body>
+    <nav class="nav nav--stretched">
+        <div>Home</div>
+        <div class="nav__group">
+            <div class="nav__item">Contact Us</div>
+            <div class="nav__item">About Us</div>
+            <div class="nav__item">FAQ</div>
+        </div>
+
+    </nav>
+
+    <nav class="nav nav--spaced">
+        <div>Home</div>
+        <div>Contact Us</div>
+        <div>About Us</div>
+        <div>FAQ</div>
+    </nav>
+
+    <nav class="nav nav--spaced nav--reversed">
+        <div>Home</div>
+        <div class="nav__group">
+            <div class="nav__item">Contact Us</div>
+            <div class="nav__item">About Us</div>
+            <div class="nav__item">FAQ</div>
+        </div>
+
+    </nav>
+
+</body>
 
 </html>
