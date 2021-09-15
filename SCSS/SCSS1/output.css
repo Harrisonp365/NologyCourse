@@ -1,0 +1,29 @@
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+}
+.navbar__nav {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.navbar__nav--seperate {
+  justify-content: space-evenly;
+}
+.navbar__nav--reverse {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.navbar__nav__item--seperate {
+  display: flex;
+  justify-content: start;
+}
+.navbar__nav__item--seperate-reverse {
+  display: flex;
+  justify-content: right;
+}
+
+.nav__link {
+  color: black;
+  text-decoration: none;
+}

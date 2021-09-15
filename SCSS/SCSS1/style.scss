@@ -1,0 +1,39 @@
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+
+    &__nav {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+
+        &--seperate { 
+            justify-content: space-evenly;   
+        }
+
+        &--reverse {
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+
+        &__item {
+            &--seperate {
+                display: flex;
+                justify-content: start;
+            }
+
+            &--seperate-reverse {
+                display: flex;
+                justify-content: right;
+            }
+        }
+    }
+
+}
+
+.nav__link {
+    color: black;
+    text-decoration: none;
+}
+
+// coach code will be below as I think I can make it work seperating out the li items but want to see how they do it.

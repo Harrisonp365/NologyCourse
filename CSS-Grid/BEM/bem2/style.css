@@ -1,5 +1,6 @@
 .container__text {
     text-decoration: underline;
+    margin-left: 20px;
 }
 
 .container__text--italic {
@@ -20,3 +21,22 @@
     text-decoration: none;
     color: blue;
 }
+
+/* Calum solution */
+
+.container__quote{
+    font-style: italic;
+}
+
+.container__caption {
+    color: lightgray;
+}
+
+.container__link {
+    color: blue;
+}
+
+.container__subtitle {
+    text-decoration: underline;
+}
+
