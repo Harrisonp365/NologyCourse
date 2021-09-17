@@ -1,0 +1,26 @@
+@use "./../partials/devices";
+
+button {
+    font-size: 100px;
+    background-color: royalblue;
+
+    @include devices.phone {
+        font-size: 24px;
+        background-color: black;
+    }
+
+    @include devices.tablet {
+        font-size: 36px;
+        background-color: green;
+    }
+
+    @include devices.tablet-landscape {
+        font-size: 50px;
+        background-color: red;
+    }
+
+    @include devices.laptop {
+        font-size: 70px;
+        background-color: purple;
+    }
+}
