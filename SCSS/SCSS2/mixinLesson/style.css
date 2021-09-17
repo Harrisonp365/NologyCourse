@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.btn--sm {
+  font-size: 0.7rem;
+}
+.btn--md {
+  font-size: 1rem;
+}
+.btn--lg {
+  font-size: 1.5rem;
+}

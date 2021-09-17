@@ -1,0 +1,43 @@
+%flex {
+    display:flex;
+    flex-direction: row;
+    @media only screen and (max-width:600px) { //german flag
+        flex-direction: column-reverse;
+    } 
+}
+
+%yellow__styling {
+    background-color: yellow;
+
+    @media only screen and (min-width:601px) and (max-width:900px) { //belgian flag
+        background-color: black; 
+    } 
+
+    @media only screen and (min-width:901px) { //irish flag
+        background-color: green;  
+    } 
+}
+
+%red__styling {
+    background-color: red;
+
+    @media only screen and (min-width:601px) and (max-width:900px) { //belgian flag
+        background-color: yellow; 
+    } 
+
+    @media only screen and (min-width:901px) { //irish flag
+        background-color: white;  
+    } 
+}
+
+%black__styling {
+    background-color: black;
+
+    @media only screen and (min-width:601px) and (max-width:900px) { //belgian flag
+        background-color: red; 
+    } 
+
+    @media only screen and (min-width:901px) { //irish flag
+        background-color: orange;  
+    } 
+}

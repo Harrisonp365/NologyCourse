@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+}
+
+.stripe__one {
+  background-color: yellow;
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .stripe__one {
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .stripe__one {
+    background-color: green;
+  }
+}
+
+.stripe__two {
+  background-color: red;
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .stripe__two {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .stripe__two {
+    background-color: white;
+  }
+}
+
+.stripe__three {
+  background-color: black;
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .stripe__three {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .stripe__three {
+    background-color: orange;
+  }
+}
+
+div {
+  width: 400px;
+  height: 200px;
+}
+@media only screen and (min-width: 601px) {
+  div {
+    width: 400px;
+    height: 300px;
+  }
+}

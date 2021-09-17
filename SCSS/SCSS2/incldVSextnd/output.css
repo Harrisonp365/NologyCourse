@@ -1,0 +1,29 @@
+.text-style, .chip-boi, .btn {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.chip-boi, .btn {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+.btn--sm {
+  font-size: 1.5rem;
+}
+.btn--lg {
+  font-size: 2.5rem;
+}
+
+.chip-boi {
+  width: 300px;
+  border-radius: 40px;
+  margin: 15px;
+}
+.chip-boi--sm {
+  font-size: 30px;
+}
+.chip-boi--lg {
+  font-size: 50px;
+}

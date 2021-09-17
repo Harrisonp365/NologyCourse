@@ -1,0 +1,23 @@
+@use "./partials/styles.scss";
+
+.container {
+    @extend %flex;
+}
+
+.btn {
+    @extend %btn;
+    @include styles.bgModifier(#FF1493, #2122FF , #FF9828 )
+}
+
+.para {
+    @extend %text-style;
+}
+
+.div {
+    @extend .container;
+}
+
+.div > p {
+    @extend .btn;
+    color: green;
+}

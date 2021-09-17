@@ -1,0 +1,42 @@
+@mixin size-modifier ($sm, $md, $lg) {
+    &--sm {
+        font-size: $sm;
+    }
+
+    &--md {
+        font-size: $md;
+    }
+
+    &--lg {
+        font-size: $lg;
+    }
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin border {
+    border: 1px solid black; 
+}
+
+.nav {
+    @include flex; //This calls the mix in
+    @include border;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.section {
+    @include flex;
+    @include border;
+    padding: 20px;
+}
+
+.btn {
+    @include flex;
+    @include size-modifier(0.7rem, 1rem, 1.5rem);
+    margin: 20px;
+}

@@ -1,0 +1,36 @@
+.text-style {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+%background-style {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+@mixin size-mod($sm, $lg) {
+    &--sm {
+        font-size: $sm;
+    }
+    &--lg {
+        font-size: $lg;
+    }
+}
+
+.btn {
+    @extend %background-style;
+    @extend .text-style;
+    @include size-mod(1.5rem, 2.5rem);
+}
+
+.chip-boi {
+    @extend %background-style;
+    @extend .text-style;
+    @include size-mod(30px, 50px);
+
+    width: 300px;
+    border-radius: 40px;
+    margin: 15px;;
+}
+
